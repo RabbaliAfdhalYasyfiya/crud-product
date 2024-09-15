@@ -3,7 +3,7 @@ function koneksi() {
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "responsi";
+    $dbname = "crud_product";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
